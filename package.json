@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
-  "version": "5.0.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "name": "website",
+  "description": "Personal Website",
+  "version": "1.0.0",
+  "author": "Meynard Soriano",
   "dependencies": {
     "gatsby": "2.25.1",
     "gatsby-plugin-manifest": "2.12.1",
@@ -15,13 +15,6 @@
     "react-dom": "17.0.1",
     "react-helmet": "6.1.0"
   },
-  "keywords": [
-    "gatsby",
-    "tailwind",
-    "tailwindcss",
-    "purgecss"
-  ],
-  "license": "MIT",
   "scripts": {
     "analyze:lint": "eslint --ext .jsx --ext .js .",
     "analyze:prettier": "prettier --list-different \"**/*.{css,js,jsx,json,md}\"",
@@ -51,12 +44,5 @@
     "postcss": "8.2.7",
     "prettier": "2.2.1",
     "tailwindcss": "2.0.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind"
-  },
-  "bugs": {
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
   }
 }
