@@ -1,7 +1,8 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faJs, faReact, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import ruby from '../images/ruby.svg'
 import typescript from '../images/typescript.svg'
 import Layout from "../components/layout";
@@ -68,6 +69,26 @@ function IndexPage() {
             "You can reach me through here:"
           }
         </p>
+        <div className="grid grid-cols-3 gap-1 pt-4">
+          <div>
+            <a href="mailto:meymeynard@gmail.com">
+              <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+              Email
+            </a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/meymeynard/">
+              <FontAwesomeIcon icon={faLinkedin} className="mr-2" />
+              LinkedIn
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/meymeynard">
+              <FontAwesomeIcon icon={faGithub} className="mr-2" />
+              Github
+            </a>
+          </div>
+        </div>
       </section>
     </Layout>
   );
