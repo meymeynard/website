@@ -41,7 +41,7 @@ function IndexPage() {
         <p>{"Some of the technologies that I've used:"}</p>
         <div className="grid grid-cols-2 pt-4">
           <div>
-            <FontAwesomeIcon icon={faReact} className="mr-2" />
+            <FontAwesomeIcon icon={faReact} className="mr-1" />
             ReactJS
           </div>
           <div className="flex items-center">
