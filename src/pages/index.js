@@ -43,23 +43,23 @@ function IndexPage() {
         <div className="grid grid-cols-2 pt-4">
           <div>
             <FontAwesomeIcon icon={faReact} className="mr-1" />
-            ReactJS
+            <label className="text-blue-800">ReactJS</label>
           </div>
           <div className="flex items-center">
             <img src={typescript} className="h-6 w-6 -ml-1 mr-1" />
-              TypeScript
+            <label className="text-blue-800">TypeScript</label>
           </div>
           <div className="flex items-center">
             <img src={ruby} className="h-6 w-6 -ml-1 mr-1" />
-            Ruby on Rails
+            <label className="text-blue-800">Ruby on Rails</label>
           </div>
           <div>
             <FontAwesomeIcon icon={faHtml5} className="mr-2" />
-            HTML and CSS
+            <label className="text-blue-800">HTML and CSS</label>
           </div>
           <div>
             <FontAwesomeIcon icon={faJs} className="mr-2" />
-              Javascript (ES6+)
+            <label className="text-blue-800">Javascript (ES6+)</label>
           </div>
         </div>
       </section>
