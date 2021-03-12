@@ -21,7 +21,7 @@ module.exports = {
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
+        icon: `src/images/favicon-16x16.png`,
       },
     },
     {
