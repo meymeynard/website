@@ -5,7 +5,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Hi there!`,
+    title: `Menardo | I code stuff`,
     name: `Meynard`,
     description: `And welcome to my personal space.`,
     author: `@meymeynard`,
@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `Menardo`,
+        short_name: `menardo`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
         display: `minimal-ui`,

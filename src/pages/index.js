@@ -6,6 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import ruby from '../images/ruby.svg'
 import typescript from '../images/typescript.svg'
 import Layout from "../components/layout";
+import Meta from '../components/meta'
 
 function IndexPage() {
   const data = useStaticQuery(graphql`
@@ -21,9 +22,10 @@ function IndexPage() {
 
   return (
     <Layout>
+      <Meta />
       <section className="pt-20">
         <h2 className="text-3xl">
-          {data.site.siteMetadata.title} {"I'm "}
+          {"Hi there! I'm "}
           <span className="text-blue-800 font-bold">
             {data.site.siteMetadata.name}
           </span>
