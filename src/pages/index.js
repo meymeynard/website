@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faJs, faReact, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import ruby from '../images/ruby.svg'
+import aws from '../images/aws.svg'
 import typescript from '../images/typescript.svg'
 import Layout from "../components/layout";
 import Meta from '../components/meta'
@@ -32,7 +32,7 @@ function IndexPage() {
         </h2>
         <p className="text-xl pt-4">
           {
-            "I'm a web developer based in Manila with over 5 years of experience."
+            "I'm a web developer based in Manila with 10 years of experience."
           }
           <br />
           {
@@ -52,8 +52,8 @@ function IndexPage() {
             <label className="text-blue-800">TypeScript</label>
           </div>
           <div className="flex items-center">
-            <img src={ruby} className="h-6 w-6 -ml-1 mr-1" />
-            <label className="text-blue-800">Ruby on Rails</label>
+            <img src={aws} className="h-6 w-6 -ml-1 mr-1" />
+            <label className="text-blue-800">AWS</label>
           </div>
           <div>
             <FontAwesomeIcon icon={faHtml5} className="mr-2" />
